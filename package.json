@@ -1,0 +1,41 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc -b",
+    "start": "node dist/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaj-2004/new_brainly_be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaj-2004/new_brainly_be/issues"
+  },
+  "homepage": "https://github.com/akshaj-2004/new_brainly_be#readme",
+  "dependencies": {
+    "@prisma/client": "^6.18.0",
+    "@qdrant/js-client-rest": "^1.15.1",
+    "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/jsonwebtoken": "^9.0.10",
+    "bcrypt": "^6.0.0",
+    "cohere-ai": "^7.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^6.7.0",
+    "prisma": "^6.18.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.1.12"
+  },
+  "type": "module"
+}
